@@ -1,0 +1,31 @@
+{
+    "controller":{
+        "name":"h1",
+        "ip":"10.0.0.1",
+        "initial_dc":"h2",
+        "region": "westus"
+    },
+
+    "dcs" : {
+        "h6" : {
+            "displayName": "West US",
+            "latitude": "29.4167",
+            "longitude": "-98.5",
+            "name": "westus",
+            "id":"",
+            "subscriptionId" : "",
+            "ip":"10.0.0.6"
+        }
+    },
+    "clients" : {
+        "h8" : {
+            "latitude" : 36.783,
+            "longitude" : -121.417,
+            "ip":"10.0.0.8",
+            "region":"southcentralus"
+        }           
+
+    },
+
+    "inter_region" : {"westus": {"westus": "0.0ms", "southcentralus": "17.0025ms"}, "southcentralus": {"westus": "17.0025ms", "southcentralus": "0.0ms"}}
+}

@@ -1,0 +1,11 @@
+# Add policies of application which should be
+# obeyed by the system, else a reprovision is
+# required
+
+# in milliseconds
+max_mean_latency: 100
+
+max_median_latency: 100
+
+max_95_perc_latency: 100
+

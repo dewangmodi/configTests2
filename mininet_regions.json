@@ -1,0 +1,30 @@
+[
+  {
+    "displayName": "West US",
+    "latitude": "37.783",
+    "longitude": "-122.417",
+    "name": "westus",
+    "node": "h3"
+  },
+  {
+    "displayName": "North Central US",
+    "latitude": "41.8819",
+    "longitude": "-87.6278",
+    "name": "northcentralus",
+    "node": "h2"
+  },
+  {
+    "displayName": "South Central US",
+    "latitude": "29.4167",
+    "longitude": "-98.5",
+    "name": "southcentralus",
+    "node": "h6"
+  },
+  {
+    "displayName": "East US",
+    "latitude": "37.3719",
+    "longitude": "-79.8164",
+    "name": "eastus",
+    "node": "h4"
+  }
+]

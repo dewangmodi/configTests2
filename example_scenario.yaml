@@ -1,0 +1,11 @@
+controller_node: 'h1'
+initial_gc: 'h2'
+controller_port: 5000
+
+events:
+    # expects ts to be in sorted order
+    - ts: 0 # in seconds, relative to when initial controller node and gc start
+      active: {'h8' : 1} # number of active users at this timestamp
+
+
+end_ts: 300 # timestamp of ending all users
